@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', sans-serif;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: #5F8D4E;
+    padding: .5rem;
+}
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 54%;
+}
+header section .logo{
+    width: 100px;
+    height: 50px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
